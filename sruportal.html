@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #002147;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-container {
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Style for tables */
+.table-container {
+    width: 70%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #002147;
+    color: white;
+}
+
+/* Profile picture styling */
+.photo-container {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-container img {
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="srulogo.png" alt="University Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Academic</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Course Reg.</a></li>
+                <li><a href="#">Attendance</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Exams</a></li>
+                <li><a href="#">Grievance</a></li>
+                <li><a href="#">Gamification</a></li>
+                <li><a href="#">Library</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="profile-container">
+        <h2>2305A51005 - Student Profile Registration Details</h2>
+
+        <div class="info-section">
+            <!-- Student Information Tables -->
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th colspan="2">Student Basic Information</th>
+                    </tr>
+                    <tr>
+                        <td>Hallticket Number:</td>
+                        <td><b>2305A51005</b></td>
+                    </tr>
+                    <tr>
+                        <td>Student Name (as per SSC):</td>
+                        <td><b>ESAM SAGAR</b></td>
+                    </tr>
+                    <tr>
+                        <td>Father Name:</td>
+                        <td><b>SAMBHASHIVAROJU</b></td>
+                    </tr>
+                    <tr>
+                        <td>Mother Name:</td>
+                        <td><b>VIJAYALAXMI</b></td>
+                    </tr>
+                    <tr>
+                        <td>Degree:</td>
+                        <td><b>UG-BTECH</b></td>
+                    </tr>
+                    <tr>
+                        <td>Branch & Specialization:</td>
+                        <td><b>MECH</b></td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <th colspan="2">Student Admission Information</th>
+                    </tr>
+                    <tr>
+                        <td>Admission Form No:</td>
+                        <td><b>2305A51005</b></td>
+                    </tr>
+                    <tr>
+                        <td>Admission Category:</td>
+                        <td><b>General</b></td>
+                    </tr>
+                    <tr>
+                        <td>Aadhar Number:</td>
+                        <td><b>790709392252</b></td>
+                    </tr>
+                    <tr>
+                        <td>Blood Group:</td>
+                        <td><b>O+VE</b></td>
+                    </tr>
+                    <tr>
+                        <td>Identification Marks:</td>
+                        <td><b>A MOLE ON NOSE</b></td>
+                    </tr>
+                    <tr>
+                        <td>Stay At:</td>
+                        <td><b>College Hostel</b></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Profile Picture Section -->
+            <div class="photo-container">
+                <img src="sagar.jpg" alt="Student Photo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
